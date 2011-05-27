@@ -1,7 +1,12 @@
 - content_for :header do
   %h1
-    %img{:src => 'http://codeconf.com/images/layout/logo-secondary.png', :align => 'top'}
-    %span pen Seats
+    %span Find Fellow Hackers
+  .crriLogo
+    &nbsp;
+  .rubyConfLogo
+    &nbsp;
+  .hr
+    &nbsp;
 
 %p#instructions
   Each square represents a seat.
@@ -39,6 +44,9 @@
 
 - content_for :footer do
   %p
+    Hosted by
+    %a{:href => 'http://www.castlerockresearch.in/'} CastleRock
+    %br>
     Hacked at CodeConf 2011 by
     %a{:href => 'http://twitter.com/patrick_mc'} @patrick_mc
     &
